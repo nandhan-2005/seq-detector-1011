@@ -59,7 +59,7 @@ gtkwave sim/waveform.vcd
 
 Example: `Checks: ... | Errors: 0 | RESULT: PASS`
 
-![waveform](sim/waveform.png)
+ ![waveform](sim/waveform.png..png)
 
 ## What I learned
 - Writing Moore FSMs in three blocks (state register, next-state logic, output logic)
