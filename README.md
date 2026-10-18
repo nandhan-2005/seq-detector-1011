@@ -55,9 +55,14 @@ gtkwave sim/waveform.vcd
 | 5 | 500 random bits with random resets | DUT always matches reference model |
 
 ## Result
-> Add your simulation output and waveform screenshot here.
+Simulated with Icarus Verilog on EDA Playground. The self-checking testbench compares the DUT output with a reference model on every clock cycle.
 
-Example: `Checks: ... | Errors: 0 | RESULT: PASS`
+Simulation log:
+
+    Checks: 533 | Detections: 31 | Errors: 0
+    RESULT: PASS
+
+Waveform: `detected` (DUT) and `exp_det` (reference model) go high at the same time, so `errors` stays 0.
 
  ![waveform](sim/waveform.png..png)
 
